@@ -61,3 +61,30 @@ body{
     margin-left: .5em;
     margin-right: .5em;
 }
+
+.trophies {
+    margin: auto;
+    display:block;
+    height: 300px;
+
+}
+
+.container-max{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.padding10px{
+    background-color: #303030;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* 
+.container-max {
+    max-width: 100%;
+    padding: 0 1rem;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+} */
