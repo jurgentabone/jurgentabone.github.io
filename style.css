@@ -25,16 +25,6 @@ margin: 1em;
 
 }
 
-.container-max img{
-    margin-bottom: 1em;
-    opacity: 0.6;
-    transition: opacity .5s ease;
-}
-
-.container-max img:hover{
-    opacity: 1;
-}
-
 .centered {
     text-align: center;
 }
@@ -63,6 +53,21 @@ margin: 1em;
     color: #ffffff;
     text-align: center;
     margin: 1.5em;
+}
+
+.rectangle h2{
+    opacity: 0.6;
+    transition: opacity .5s ease;
+}
+
+.rectangle img{
+    margin-bottom: 1em;
+    opacity: 0.6;
+    transition: opacity .5s ease;
+}
+
+.rectangle img h2:hover{
+    opacity: 1;
 }
 
 .main-container h5{
@@ -118,5 +123,3 @@ margin-left: 0em;
 display: block;
 width: 100%;
 }
-
-.article-heading
