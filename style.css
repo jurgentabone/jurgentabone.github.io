@@ -55,18 +55,13 @@ margin: 1em;
     margin: 1.5em;
 }
 
-.rectangle h2{
-    opacity: 0.6;
-    transition: opacity .5s ease;
-}
-
 .rectangle img{
     margin-bottom: 1em;
     opacity: 0.6;
     transition: opacity .5s ease;
 }
 
-.rectangle img h2:hover{
+.rectangle img:hover{
     opacity: 1;
 }
 
@@ -123,3 +118,4 @@ margin-left: 0em;
 display: block;
 width: 100%;
 }
+
