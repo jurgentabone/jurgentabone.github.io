@@ -83,4 +83,9 @@ body{
 }
 .article-image{
 margin-left: 0em;
+display: block;
+width: 100%;
+
 }
+
+.article-heading
