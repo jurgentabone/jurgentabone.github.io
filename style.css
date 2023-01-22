@@ -41,7 +41,7 @@ h1{
 
 .aside-para{
     margin-top: 5px;
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
 }
 
 .article-title{
@@ -94,6 +94,7 @@ h1{
 
 .rectangle img:hover{
     opacity: 1;
+    color: #ffffff;
 }
 
 .main-container h1{
@@ -115,7 +116,7 @@ h1{
     padding: .5em;
 }
 
-.navbar .container {
+.navbar .header {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -146,4 +147,9 @@ h1{
     padding-bottom: 15px;
     margin-top: 45px;
     margin-bottom: 45px;
+}
+
+.logo img{
+    margin: 100px;
+    width: 10px;
 }
