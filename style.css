@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
 
 a {
     color: #ffffff;
@@ -20,13 +21,12 @@ body{
     margin: 0;
 }
 
-.article-heading h1{
-margin: 1em;
-
+h1{
+    font-family: Work Sans, Verdana, Geneva, Tahoma, sans-serif; 
 }
 
-.centered {
-    text-align: center;
+.article-heading h1{
+    margin: 1em;
 }
 
 .container img{
@@ -50,9 +50,10 @@ margin: 1em;
 }
 
 .rectangle h2{
-    color: #ffffff;
+    color: #cecece;
     text-align: center;
     margin: 1.5em;
+    font-family: Work Sans, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .rectangle img{
@@ -65,14 +66,16 @@ margin: 1em;
     opacity: 1;
 }
 
-.main-container h5{
+.main-container h1{
     font-weight:bold;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
+    padding-top: 1.9em;
+    margin-bottom: 0.5em;
 }
 
 .main-container p{
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: center;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -81,6 +84,7 @@ margin: 1em;
     background-color: #F01b33;
     padding: .5em;
 }
+
 .navbar .container {
     align-items: center;
     display: flex;
@@ -92,7 +96,9 @@ margin: 1em;
     list-style: none;
     padding: 0;
 }
+
 .navbar-nav li {
+    font-family: Work Sans, Verdana, Geneva, Tahoma, sans-serif;
     padding: .5em;
     margin-left: .5em;
     margin-right: .5em;
@@ -101,8 +107,7 @@ margin: 1em;
 .trophies {
     margin: auto;
     display:block;
-    height: 300px;
-
+    height: 250px;
 }
 
 .rectangle{
@@ -114,8 +119,8 @@ margin: 1em;
 }
 
 .article-image{
-margin-left: 0em;
-display: block;
-width: 100%;
+    margin-left: 0em;
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
 }
-
