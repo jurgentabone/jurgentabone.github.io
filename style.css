@@ -9,6 +9,16 @@ a:hover {
     color: #303030;
 }
 
+p{
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;  
+    text-align: justify;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Work Sans, Verdana, Geneva, Tahoma, sans-serif; 
+}
+
 footer {
     background-color: #F01b33;
     font-size: .9em;
@@ -17,12 +27,62 @@ footer {
     padding-top: 1.11em;
 }
 
+footer h5{
+    padding: 1em;
+    margin: 0.5em;
+    font-size: 1.2em;
+    font-family: Work Sans, Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+footer li{
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body{
     margin: 0;
 }
 
-h1{
-    font-family: Work Sans, Verdana, Geneva, Tahoma, sans-serif; 
+
+form{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+form input{
+    width: 100%;
+    background: none;
+    color: black;
+    border: 0;
+    outline: none;
+    font-size: 25px;
+}
+
+img.aboutme-img{
+    padding-right: 1em;
+    width: 950px;
+    position: fixed;
+    top: 0;
+}
+
+img.aboutme-img1{
+    padding: 0;
+    margin: 0 1em 0 1em;
+    width: 900px;
+}
+
+img.aboutme-img2{
+    margin-top: 1em;
+    padding-right: 2.5em;
+    width: 355px
+}
+
+img.aboutme-img3{
+    padding: 0;
+    margin: auto;
+    width: 940px;
 }
 
 .article-image{
@@ -55,15 +115,48 @@ h1{
     font-weight: 200;
 }
 
-.container img{
+.button{
+    background: none;
+    border: none;
+}
+
+.button img{
+    margin-top: 0em;
+    width: 50px;
+}
+
+.main-container img{
     margin-top: 3em;
     height: 500px;
+}
+
+.footer-container p{
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-left: 5em;
+}
+
+.footer-container .col-4 img{
+    width: 113px;
+    margin-top: 3em;
+    margin-left: 5em;
+}
+
+.footer-container .copyright{
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2em;
+    margin-left: 5em;
+    color: #ffffff;
+}
+
+.footer-container ul li{
+    list-style: none;
+    margin-bottom: 12px;
 }
 
 .container-max{
     width: 100%;
     padding: 0 1rem;
-    margin: 0.5em;
 }
 
 .container-max p{
@@ -73,6 +166,16 @@ h1{
 
 .container-max h1{
     margin-top: 0%;
+}
+
+.centered{
+    text-align: center;
+    font-size: 3em;
+}
+
+.col-3 h5{
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .rectangle{
@@ -149,7 +252,17 @@ h1{
     margin-bottom: 45px;
 }
 
-.logo img{
-    margin: 100px;
-    width: 10px;
+.navbar-brand img{
+    margin-left: 1em;
+    width: 113px;
+}
+
+img.logo{
+    margin-left: 58.8em;
+    width: 113px;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 0.1;
 }
