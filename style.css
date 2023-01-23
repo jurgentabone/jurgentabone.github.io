@@ -116,6 +116,11 @@ img.aboutme-img1{
     width: 50px;
 }
 
+.button .main-container img{
+    margin-top: 0em;
+    width: 500px;
+}
+
 .main-container img{
     margin-top: 3em;
     height: 500px;
