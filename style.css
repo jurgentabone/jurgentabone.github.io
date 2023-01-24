@@ -78,22 +78,23 @@ img.logo{
 
 img.center{
     margin-left: 22em;
-    width: 530px;
+    width: 565px;
+    height: 925px;
 }
 
 img.center2{
     margin-left: 22em;
-    width: 1240px;
+    width: 1152px;
 }
 
 .career-p{
-    margin-right: 15em;
+    margin-right: 20em;
     text-align: justify;
 }
 
 .career-p2{
     margin-left: 350px;
-    margin-right: 265px;
+    margin-right: 20em;
     text-align: justify;
 }
 
@@ -179,6 +180,8 @@ img.center2{
 .container-max{
     width: 100%;
     padding: 0 1rem;
+    margin-left: 4em;
+
 }
 
 .container-max p{
@@ -253,7 +256,6 @@ img.center2{
 .navbar2{
     background-color: #F01b33;
     padding: .5em;
-    margin-bottom: 3em;
 }
 
 .navbar .header {
