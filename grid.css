@@ -16,7 +16,6 @@
 .container .row, .container-max .row, .footer-container .row, .aboutme-container .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -.5rem;
 }
 .container .row [class*="col-"], .container-max .row [class*="col-"], .footer-container .row [class*="col-"], .aboutme-container .row [class*="col-"] {
     margin: 0 .5rem;
