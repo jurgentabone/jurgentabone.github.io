@@ -73,8 +73,8 @@ img.aboutme-img{
 }
 
 img.aboutme-img1{
-    margin: 0 ;
-    width: 890px;
+    margin: 0 3em 0 3em;
+    width: 760px;
 }
 
 img.logo{
@@ -83,23 +83,24 @@ img.logo{
 }
 
 img.center{
-    margin-left: 22em;
-    width: 565px;
-    height: 925px;
+    margin-left: 18.8em;
+    width: 550px;
+    height: 850px;
 }
 
 img.center2{
-    margin-left: 22em;
-    width: 990px;
+    margin-left: 18.8em;
+    width: 1045px;
 }
 
 .career-p{
+    margin-left: 20px;
     margin-right: 20em;
     text-align: justify;
 }
 
 .career-p2{
-    margin-left: 350px;
+    margin-left: 300px;
     margin-right: 20em;
     text-align: justify;
 }
@@ -107,6 +108,7 @@ img.center2{
 .aboutme-container p{
     font-size: 1.2em;
     text-align: justify;
+    margin-left: 2.5em;
     margin-right: 2.5em;
 }
 
@@ -135,6 +137,7 @@ img.center2{
 
 .nomargin{
     margin: 0;
+    margin-left: 20px;
 }
 
 .article-heading{
@@ -256,7 +259,7 @@ img.center2{
 }
 
 .career-title2{
-    margin-left: 350px;
+    margin-left: 300px;
 }
 
 .col-3 h5{
